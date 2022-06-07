@@ -1,0 +1,30 @@
+.block{
+    display: flex; 
+    flex-direction: column; /*COLUMN TYPE DISPLAY OF FLEX*/
+    align-items: center; /*ALIGN ITEMS IN CENTER WRT LEFT RIGHT*/   
+    margin-top: 10px;
+}
+#innerblock{
+    width: 600px;
+    padding: 20px;
+    border-radius: 2px;
+    border-radius: 1%;
+    border:1px solid black;
+    box-shadow: 0 0 2px black;
+}
+#submit{
+    text-align: center;
+}
+#submit button{
+    border-radius: 20px;
+    padding: 10px;
+
+}
+#submit button:hover{
+    color: black;
+    background-color: white; 
+  
+}
+input:hover{
+    border: 2px solid currentColor;
+}

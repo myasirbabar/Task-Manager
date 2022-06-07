@@ -1,0 +1,7 @@
+html,body {
+  height: 100%;
+}
+
+#dboard {
+  background-color: rgb(21, 8, 59);
+}

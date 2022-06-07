@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Hacker Rank",
+      "desc": "Daily Do Hacker Rank Practice Questions",
+      "due": true
+    },
+    {
+      "id": 2,
+      "text": "React.js",
+      "desc": "Learn React.js Fastly",
+      "due": false
+    },
+    {
+      "id": 3,
+      "text": "Django",
+      "desc": "Learn Django after React",
+      "due": true
+    },
+    {
+      "id": 4,
+      "text": "CN",
+      "desc": "Computer Networks Slides",
+      "due": false
+    },
+    {
+      "text": "C2ladders",
+      "desc": "After Hanker Rank start it",
+      "due": false,
+      "id": 5
+    },
+    {
+      "text": "EAD",
+      "desc": "Project GUI Betterment",
+      "due": false,
+      "id": 6
+    }
+  ]
+}

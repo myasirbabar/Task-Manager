@@ -1,0 +1,53 @@
+:root {
+    --bottom: 0.5rem;
+    --sw: 250px;
+    --height: 50px;
+    --padding: 20px
+}
+#mainArea{
+    height: 280px;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: white;
+    color: black;
+    position: relative;
+    margin-top: calc(var(--bottom) + 0.1rem);
+    display: flex;
+    justify-content:left;
+    flex-wrap: wrap;
+}
+
+
+#cards{
+    color: white;
+    text-decoration: none;
+    background-color: #0a0614;
+    margin: 15px;
+
+    width: 300px;
+    padding: 20px;
+    height: 250px;
+}
+#description_job{
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 50px;
+}
+#description_job::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+#description_job::-webkit-scrollbar-track {
+    background: #0a0000; 
+}
+
+/* Handle */
+#description_job::-webkit-scrollbar-thumb {
+    background: rgb(150, 2, 2); 
+}
+
+/* Handle on hover */
+#description_job::-webkit-scrollbar-thumb:hover {
+    background: rgb(241, 241, 241); 
+}
