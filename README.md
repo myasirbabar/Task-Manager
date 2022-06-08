@@ -1,5 +1,6 @@
 # Task Manager
 Built using React Framework
+JSON is used as a mock Backend
 
 
 ## Available Scripts
